@@ -1,0 +1,89 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+}
+
+.tudo {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%)
+}
+img {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+p {
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+
+.verde {
+    font-size: 13px;
+    color: hsl(75, 94%, 57%);
+    margin:8px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 23px;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+button {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding: 8px;
+    margin: 7px;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+
+@media(max-width: 320px) and (min-width: 760px){
+     .tudo {
+        
+        max-width:300px;
+        padding: 1.2rem;
+      }
+      p, .verde {
+        font-size: 0.75rem;
+      }
+      h1 {
+        font-size: 1.1rem;
+      }
+
+      button {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+      }
+    
+}
